@@ -1,0 +1,18 @@
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/personal
+#    username: personal_owner
+#    password: As45tK
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: none
+#      dialect: org.hibernate.dialect.Postgres10Dialect
+
+
+logging:
+  level:
+    root: info
+    com.barzykin.personal: debug
